@@ -1,16 +1,18 @@
-public class Swap {
+public class swap {
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
+        int c = 15;
 
         System.out.println("Before swap: a = " + a + ", b = " + b);
 
         // Swapping using a temporary variable
         int temp = a;
-        a = b;
-        b = temp;
-
+        a=b;
+        b=c;
+        c=temp;
+        
         System.out.println("After swap: a = " + a + ", b = " + b);
-        System.out.println("After swap: a = " + a + ", b = " + b);
+        System.out.println("After swap: a = " + a + ", b = " + b + ", c = " + c);
     }
 }
